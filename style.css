@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --yellow: #f5d04e;
+    --grey: #a5a5a5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    background-color: var(--yellow);
+}
+
+main{
+    font-family: "Figtree", sans-serif;
+    font-weight: 400;
+    background-color: white;
+    margin-inline: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    border-radius: 20px;
+    box-shadow: 11px 11px black;
+    border: 1px solid black;
+    gap: 20px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.highlight{
+    font-weight: 700;
+    width: 85px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--yellow);
+}
+
+h2{
+    font-weight: 800;
+}
+
+.description{
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.username{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.attribution { 
+    font-size: 13px; 
+    text-align: center; 
+}
+
+.attribution a{ 
+    color: black; 
+    font-weight: 900;
+}
+
+/* Mobil stil tanımı */
+@media screen and (max-width: 375px) {
+  /* Mobil için özel stiller buraya */
+}
+
+/* Masaüstü stil tanımı */
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  /* Masaüstü için özel stiller buraya */
+}
+
+/* Masaüstü büyük stil tanımı */
+@media screen and (min-width: 1441px) {
+  /* Masaüstü büyük için özel stiller buraya */
+}
